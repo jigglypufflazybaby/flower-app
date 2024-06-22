@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Cedarville Cursive' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Shop</title>
+    <style>
+
+@keyframes fadeInOut {
+            0% { opacity: 0; transform: scale(0.8); }
+            50% { opacity: 1; transform: scale(1.1); }
+            100% { opacity: 0; transform: scale(0.8); }
+        }
+
+        
+        body {
+            font-family:'Cedarville Cursive';font-size: 22px ;
+            color:rgb(66, 1, 66);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: lavender;
+            padding: 10px;
+        }
+        
+        header h1 {
+            margin: 0;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        
+        nav a {
+            color:rgb(66, 1, 66) ;
+            text-decoration: none;
+            transition: box-shadow 0.3s ease; 
+        }
+        
+        nav a:hover {
+            color: #ffffff;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8);
+        }
+        
+        section {
+            padding: 40px;
+        }
+        
+        .flower-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        
+        
+        .flower-gallery img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin: 10px;
+            border-radius: 12px;
+            animation: fadeInOut 6s infinite; }
+
+            
+/* Rest of the CSS styles remain the same */
+
+/* Rest of the CSS styles remain the same */
+
+h1,
+h2 {
+    position: relative;
+    animation: move 5s ease-in-out infinite;
+}
+
+/* CSS Animation for move */
+@keyframes move {
+    0% { transform: translateX(-20px); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+}
+
+
+
+
+
+           
+        }
+        
+        
+
+            
+        
+    
+    </style>
+</head>
+<body>
+  <header>
+    <center><h1>Rosella</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#flowers">Flowers</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav></center>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to Rosella !</h2>
+    <p>Welcome to Rosella, an enchanting oasis of romance and elegance, where the timeless beauty of roses takes center stage. Nestled in the heart of a bustling city, Rosella is a boutique flower shop that specializes in offering the most exquisite and captivating roses to adorn your most cherished moments.
+    </p>
+  </section>
+
+  
+
+  <section id="flowers">
+    <h2>Roses</h2>
+    <div class="flower-gallery"><center>
+      <img src="f1.jpg" alt="Flower 1"><br>pure white roses <br> rs. 1399
+      <br><br><br><br>
+      <img src="f2.webp" alt="Flower 2"><br>pink roses<br> rs.1499
+      <br><br><br><br>
+      <img src="f3.jpg" alt="Flower 3"><br>light blue roses<br> rs.1699
+      <br><br><br><br>
+      <img src="f4.jpg" alt="Flower 3"><br>green roses<br> rs.799
+      <br><br><br><br>
+      <img src="f5.avif" alt="Flower 3"><br>lavender roses<br> rs.499
+      <br><br><br><br>
+      <img src="f6.jpg" alt="Flower 3"><br>dark blue roses<br> rs.1499
+      <br><br><br><br>
+      <img src="f7.jpeg" alt="Flower 3"><br>yellow roses<br> rs.1499
+      <br><br><br><br>
+      <img src="f8.jpeg" alt="Flower 3"><br>red roses<br> rs.1499
+      <br><br><br><br>
+      <img src="f9.jpg" alt="Flower 3"><br>dark pink roses<br> rs.1499
+      <br><br><br><br>
+      <img src="f10.jpg" alt="Flower 3"><br>light pink roses<br> rs.1499
+      <br><br><br><br>
+      <img src="f11.png" alt="Flower 3"><br>black roses<br> rs.1499
+      <br><br><br><br>
+      <img src="f12.avif" alt="Flower 3"><br>orange roses<br> rs.1499
+      <br><br><br><br>
+    </center>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+        With a passionate commitment to perfection, we curate a stunning array of roses in an array of captivating colors and delicate fragrances. Each rose at Rosella is meticulously hand-selected, ensuring only the freshest and most pristine blooms find their way into our coveted arrangements.
+
+Whether you're celebrating an intimate anniversary, expressing profound affection, or simply seeking to convey your deepest emotions, Rosella's exclusive collection of roses is designed to evoke sentiments beyond words.
+
+Our expert floral artisans take pride in crafting bespoke arrangements that reflect the uniqueness of each occasion. From classic bouquets to mesmerizing rose arrangements, every creation at Rosella exudes sophistication and grandeur.
+
+Join us in a timeless celebration of love and passion as we invite you to experience the captivating world of roses at Rosella, where the language of flowers speaks straight to the heart. Embrace the elegance of roses and let Rosella be your haven for all things love and beauty.
+    </p>
+    
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@rosellablooms.com</p>
+    <p>Phone: +91-9630258741</p>
+  </section>
+</body>
+</html>
